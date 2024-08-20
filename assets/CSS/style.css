@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#cityInput {
+    padding: 10px;
+    width: 60%;
+    margin-right: 10px;
+}
+
+#searchBtn {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.weather-section {
+    margin-bottom: 20px;
+}
+
+.weather-section h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+}
+
+#currentWeatherDetails,
+#forecastDetails {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.forecast-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.forecast-item {
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 5px;
+    width: 150px;
+    text-align: center;
+}
